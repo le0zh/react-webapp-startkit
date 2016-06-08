@@ -4,7 +4,7 @@ dev:
 ```
 npm run dev
 ```
-Then go to `http://localhost:3001'
+Then go to `http://localhost:3001`
 
 
 build:

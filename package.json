@@ -5,14 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint --ext .js src",
     "dev": "node ./build/server.js",
     "build": "cross-env NODE_ENV=production webpack --config ./build/webpack.config.prod.js --progress --color"
   },
-  "keywords": ["react", "webapp"],
+  "keywords": [
+    "react",
+    "webapp"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.9.1",
+    "babel-eslint": "^6.0.5",
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-react": "^6.5.0",
@@ -20,6 +25,12 @@
     "clean-webpack-plugin": "^0.1.9",
     "cross-env": "^1.0.8",
     "css-loader": "^0.23.1",
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-loader": "^1.3.0",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-jsx-a11y": "^1.5.3",
+    "eslint-plugin-react": "^5.2.2",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
     "html-webpack-plugin": "^2.19.0",

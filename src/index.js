@@ -8,5 +8,6 @@ import './css/awesome.css';
 
 let container = document.getElementById('react-app');
 
+
 // 绑定
 ReactDOM.render(<Root></Root>, container);

@@ -1,11 +1,9 @@
 // src/components/Root.jsx
 
-import React from 'react'
+import React from 'react';
 
-class Root extends React.Component {
-  render() {
-    return (<h1> hello from react.js</h1>);
-  }
-}
+const Root = function Root() {
+  return <h1> hello from react.js</h1>;
+};
 
-export default Root;
+module.exports = Root;
